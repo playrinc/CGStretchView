@@ -8,11 +8,13 @@ A very customizable replacement for a simple UIImageView and UILabel that can be
 To put in your own app
 =======================
 1. Drag these into your Xcode Project and import the header where you want to use a stretch view
+```objc
+CGStretchView.h
+CGStretchView.m
+```
 
-    CGStretchView.h
-    CGStretchView.m
-  
-2. Make your stretch view, and you can set many different properties
+Make your stretch view, and you can set many different properties
+===================================================================
 
 ```objc
 CGStretchView *stretchView = [[CGStretchView alloc] initWithFrame:CGRectMake(60, 60, 200, 200)];
@@ -28,7 +30,8 @@ stretchView.cornerButtonRadius = 30.0f;
 This can replace both a UILabel and a UIImageView. Just set the label properties to it like text, or you can simply set an image to it.
 Many different properties can be changed, so check the header file to see what else can be changed.
 
-3. To use the corner button
+To use the corner button
+=========================
 
 This stretch view has a corner button, which comes in handy if this is being used in an image editor where a user drags on resizable objects. This button can be used for anything e.g. a delete button or cancel button.
 
