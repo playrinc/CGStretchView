@@ -35,11 +35,16 @@ To use the corner button
 
 This stretch view has a corner button, which comes in handy if this is being used in an image editor where a user drags on resizable objects. This button can be used for anything e.g. a delete button or cancel button.
 
-Add the delegate: ```objc<CGStretchViewDelegate>```
+Add the delegate: ```<CGStretchViewDelegate>```
 Then add the delegate methods to see when the user touches the button or the stretch view itself
 ```objc
 - (void)cornerButtonPressed:(UIButton*)cornerButton withStretchView:(CGStretchView*)stretchView;
 - (void)stretchViewTapped:(CGStretchView*)stretchView;
+```
+
+Make sure to also set the delegate as a property on your stretch view.
+```objc
+stretchView.delegate = self;
 ```
 
 Try out the sample project for examples.
