@@ -3,7 +3,7 @@ CGStretchView
 
 A very customizable replacement for a simple UIImageView and UILabel that can be stretched, rotated, and moved with gestures
 
-![alt tag](http://chrisgalz.com/cgstretchview.png)
+![alt tag](http://chrisgalz.com/cgstretchview.PNG)
 
 To put in your own app
 =======================
@@ -13,7 +13,7 @@ CGStretchView.h
 CGStretchView.m
 ```
 
-Make your stretch view, and you can set many different properties
+Make/Customize your stretch view
 ===================================================================
 
 ```objc
